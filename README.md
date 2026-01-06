@@ -4,8 +4,6 @@ Real-time fire detection system using computer vision and audio alerts.
 
 ## 📋 Project Overview
 
-Author: Vision KC
-
 This tool detects fire in real-time using your webcam and plays an alarm sound when fire is detected. It uses computer vision techniques to identify fire-like colors (red/orange hues) and confirms fire presence based on area and intensity thresholds.
 
 ## ✨ Features
@@ -77,4 +75,4 @@ Controls:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-[GitHub](https://github.com/vision-dev1) | [Website](https://visionkc.com.np)
+[GitHub](https://github.com/vision-dev1) 
