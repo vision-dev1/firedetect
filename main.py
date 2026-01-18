@@ -7,7 +7,7 @@ import os
 
 class FireDetector:
     def __init__(self):
-        # Initialize pygame mixer for audio
+        
         pygame.mixer.init()
         
         # Alarm sound file path (check for both alarm.mp3 and alert.mp3)
@@ -15,7 +15,6 @@ class FireDetector:
         if not os.path.exists(self.alarm_sound_path):
             self.alarm_sound_path = os.path.join("sounds", "alert.mp3")
         
-        # Check if alarm sound file exists
         if not os.path.exists(self.alarm_sound_path):
             print(f"Warning: {self.alarm_sound_path} not found!")
             
@@ -139,7 +138,6 @@ class FireDetector:
             cv2.putText(frame, f"Fire: {int(region['area'])} px", 
                        (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 1)
         
-        # Control alarm based on fire detection
         if fire_detected:
             self.start_alarm()
             cv2.putText(frame, "FIRE DETECTED!", (10, 30), 
@@ -188,7 +186,6 @@ def main():
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
     
-    # Stop alarm when exiting
     detector.stop_alarm()
     
     # Release everything
