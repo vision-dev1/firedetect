@@ -1,4 +1,4 @@
-# 🔥 Fire Detection Tool (firedetect)
+# 🔥 Fire Detection Tool
 
 Real-time fire detection system using computer vision and audio alerts.
 
