@@ -75,5 +75,5 @@ Controls:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-[GitHub](https://github.com/vision-dev1) 
+[GitHub](https://github.com/vision-dev1) <br>
 [Portfolio](https://visionkc.com.np)
